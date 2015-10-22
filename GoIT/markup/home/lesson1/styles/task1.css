@@ -1,0 +1,26 @@
+body{
+	background: rgb(238,238,238);
+}
+.first{
+	width:513px;
+	background: white;
+	margin: 0 auto;
+	border: 1px solid rgb(213,213,213);
+}
+h1{
+	text-align: center;
+}
+img{
+	border-radius: 10px;
+	display: block;
+	margin:0 auto;
+}
+div{
+	margin: 30px 50px;
+}
+span{
+	display: block;
+}
+.line{
+	border-bottom: 2px solid rgb(213,213,213) ;
+}
