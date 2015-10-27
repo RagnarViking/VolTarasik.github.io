@@ -1,0 +1,58 @@
+h2 {
+  text-align: center;
+  font-size: 22px;
+}
+
+#head {
+  font-size: 16px;
+  width: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 30px 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+img {
+  width: 140px;
+  height: 140px;
+}
+
+body {
+  background: #ccc;
+}
+
+.links {
+  list-style: none;
+  margin-left: 10;
+  padding: 0;
+}
+
+.links li {
+  display: inline;
+}
+
+.photo {
+  text-align: center;
+}
+
+span {
+  display: block;
+}
+
+.line {
+  border-top: 1.5px solid #858585;
+}
+
+p,
+ul {
+  margin-left: 10px;
+}
+
+.links a:hover {
+  opacity: 0.8;
+}
+
+li img {
+  width: 50px;
+  height: 50px;
+}
