@@ -1,54 +1,53 @@
 @font-face {
-	font-family: OpenSans-Regular;
-	src: url (../font/OpenSans-Regular.ttf);
+  font-family: OpenSans-Regular;
+  src: url (../font/OpenSans-Regular.ttf);
 }
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* GENERAL */
 body {
-	background: #f9f9f9;
+  background: #f9f9f9;
 }
 .wrapper {
-	width: 970px;
-	overflow: auto;
-	background: #ffffff;
-	margin: 0 auto;
-	padding: 50px 55px 60px 40px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+  width: 970px;
+  overflow: auto;
+  background: #ffffff;
+  margin: 0 auto;
+  padding: 50px 55px 60px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 
 /* HEADER */
 header {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .logo {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .menu {
-	height: 40px;
-	background: #4f4f4f;
-	background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-	background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  height: 40px;
+  background: #4f4f4f;
+  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
 }
 .menu ul {
-	height: 100%;
-	overflow: hidden;
+  height: 100%;
+  overflow: hidden;
 }
 .menu li {
-	display: inline-block;
-	height: 100%;
+  display: inline-block;
+  height: 100%;
 }
 .menu a {
-	display: block;
-	border: 1px solid rgba(0, 0, 0, 0);
-	height: 100%;
-	text-decoration: none;
-	color: white;
-	padding: 10px 25px 0;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0);
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px 0;
 }
 .menu li a:hover {
   background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
@@ -61,77 +60,74 @@ header {
 
 /* CONTAINER */
 .left_menu {
-	float: left;
-	width: 240px;
-	height: 246px;
-	border: 1px solid rgb(200, 200, 200);
-	overflow: hidden;
+  float: left;
+  width: 240px;
+  border: 1px solid rgb(200, 200, 200);
+  overflow: hidden;
 }
 .left_menu li {
-	height: 40px;
-	border-bottom: 1px solid rgb(200, 200, 200);
-	overflow: hidden;
+  height: 40px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  overflow: hidden;
 }
 .left_menu li:last-child {
-	border: none;
+  border: none;
 }
 .left_menu a {
-	display: block;
-	height: 100%;
-	width: 100%;
-	text-decoration: none;
-	color: #656363;
-	padding: 12px 0 10px 24px;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #656363;
+  padding: 12px 0 10px 24px;
 }
 .left_menu a:hover {
-	background-color: #F9F9F9;
-	border-left: 10px solid rgba(0, 0, 0, 0);
-	font-weight: bold;
+  background-color: #F9F9F9;
+  border-left: 10px solid rgba(0, 0, 0, 0);
+  font-weight: bold;
 }
 .content {
-	float: right;
-	width: 680px;
-	margin-bottom: 60px;
+  float: right;
+  width: 680px;
+  margin-bottom: 60px;
 }
 .content .bike {
-	padding: 40px 0 20px 0;
-	width: 100%;
-	border: 1px solid rgb(200, 200, 200);
-	text-align: center;
-	margin-bottom: 40px;
+  padding: 40px 0 20px 0;
+  width: 100%;
+  border: 1px solid rgb(200, 200, 200);
+  text-align: center;
+  margin-bottom: 40px;
 }
 .content article {
-	margin-left: 20px;
-	margin-top: 40px;
-	line-height: 1.5;
-	font-size: 14px;
-	width: 620px;
-	height: 120px;
-	padding: 0 24px 0 24px;
+  margin-left: 20px;
+  margin-top: 40px;
+  line-height: 1.5;
+  font-size: 14px;
+  padding: 0 24px 0 24px;
 }
 
 /* FOOTER */
 footer {
-	clear: both;
-	height: 40px;
-	background-color: #e1e1e1;
-	margin-top: 40px;
+  clear: both;
+  height: 40px;
+  background-color: #e1e1e1;
+  margin-top: 40px;
 }
 footer li {
-	display: inline-block;
-	height: 100%;
+  display: inline-block;
 }
 footer li a {
-	display: block;
-	height: 100%;
-	text-decoration: none;
-	color: #3E3E3E;
-	padding: 10px 25px 0;
+  display: block;
+  text-decoration: none;
+  color: #3E3E3E;
+  padding: 10px 25px 0;
 }
 footer li:last-child {
-	float: right;
-	margin: 10px 25px 0;
+  float: right;
+  margin: 10px 25px 0;
 }
 footer a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
+}
+.copy {
+  float: right;
 }
