@@ -37,7 +37,7 @@ header {
   margin-right: 30px;
 }
 
-span {
+.contacts {
   display: block;
 }
 .countries {
@@ -102,7 +102,7 @@ span {
   text-decoration: none;
   color: white;
   font-family: Tahoma;
-  font-style: 14px;
+  font-size: 14px;
 }
 
 .sub-menu li {
