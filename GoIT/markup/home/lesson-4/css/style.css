@@ -76,22 +76,30 @@ header {
   position: relative;
   background-color: #333333;
   border-bottom: 1px solid black;
+  padding: 3px 0;
+}
+
+.menu ul {
+  text-align: center;
 }
 
 .menu > ul > li {
   display: inline-block;
-  position: relative;
-  height: 27px;
-  padding-left: 50px;
+  margin-left: 60px;
+}
+
+.menu li:first-child, li.first-child {
+  margin: 0;
 }
 
 .sub-menu {
   position: absolute;
-  display: none;
+  /*display: none;*/
   background-color: #333333;
   list-style-type: none;
-  width: 100%;
   border-top: 1px solid black;
+  top: 27px;
+  padding: 0px 5px 6px 0;
 }
 
 .menu > ul > li:hover > ul.sub-menu {
