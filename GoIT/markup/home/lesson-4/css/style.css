@@ -75,7 +75,10 @@ header {
   background-color: #333333;
   border-bottom: 1px solid black;
   padding: 3px 0;
+<<<<<<< HEAD
   top: -4px;
+=======
+>>>>>>> 27d8179aaa51fdb90f7a1dbaa1ffb8a7ed89d2b7
 }
 
 .menu ul {
@@ -93,7 +96,7 @@ header {
 
 .sub-menu {
   position: absolute;
-  display: none;
+  /*display: none;*/
   background-color: #333333;
   list-style-type: none;
   border-top: 1px solid black;
