@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/background-photo.jpg);
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  font-family: "Helvetica Neue", Tahoma, sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/*HEADER*/
+
+header {
+  position: relative;
+  background-color: #074f8d;
+  height: 35px;
+}
+
+.menu {
+  float: right;
+  height: 100%;
+  line-height: 35px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0px 10px 0 10px;
+  height: 100%;
+  vertical-align: top;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #489ad4;
+  padding: 9px 0;
+}
+
+.white,
+.white > a {
+  color: #fefefe;
+}
+
+.underline {
+  background: rgba(73,172,218,1);
+background: -moz-linear-gradient(top, rgba(73,172,218,1) 0%, rgba(73,172,218,1) 25%, rgba(58,148,207,1) 50%, rgba(52,130,197,1) 64%, rgba(45,117,190,1) 81%, rgba(45,117,190,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,172,218,1)), color-stop(25%, rgba(73,172,218,1)), color-stop(50%, rgba(58,148,207,1)), color-stop(64%, rgba(52,130,197,1)), color-stop(81%, rgba(45,117,190,1)), color-stop(100%, rgba(45,117,190,1)));
+background: -webkit-linear-gradient(top, rgba(73,172,218,1) 0%, rgba(73,172,218,1) 25%, rgba(58,148,207,1) 50%, rgba(52,130,197,1) 64%, rgba(45,117,190,1) 81%, rgba(45,117,190,1) 100%);
+background: -o-linear-gradient(top, rgba(73,172,218,1) 0%, rgba(73,172,218,1) 25%, rgba(58,148,207,1) 50%, rgba(52,130,197,1) 64%, rgba(45,117,190,1) 81%, rgba(45,117,190,1) 100%);
+background: -ms-linear-gradient(top, rgba(73,172,218,1) 0%, rgba(73,172,218,1) 25%, rgba(58,148,207,1) 50%, rgba(52,130,197,1) 64%, rgba(45,117,190,1) 81%, rgba(45,117,190,1) 100%);
+background: linear-gradient(to bottom, rgba(73,172,218,1) 0%, rgba(73,172,218,1) 25%, rgba(58,148,207,1) 50%, rgba(52,130,197,1) 64%, rgba(45,117,190,1) 81%, rgba(45,117,190,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49acda', endColorstr='#2d75be', GradientType=0 );
+}
+
+}
+
+
+.menu img {
+  padding: 0 10px;
+}
+
+.menu li:hover,
+.menu a:hover{
+  color: #fefefe; 
+  background-color: #4eabda;
+}
+
+.underline a {
+  text-decoration: underline;
+}
+
+.menu:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+/*CONTENT*/
+
+.content {
+  width: 558px;
+  height: 612px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -279px;
+  margin-left: -306px;
+}
+
+.cadastre {
+  text-align: center;
+  height: 61px;
+  margin-bottom: 2px;
+  background-color: rgba(0, 0, 0, 0.631);
+}
+
+.form-content {
+  background-color: rgba(0, 0, 0, 0.631);
+  height: 546px;
+}
+
+h2 {
+  color: #ffffff;
+  padding-top: 18px;
+}
+
+
+
+
+.centered {
+  width: 272px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.strike+span {
+  display: inline-block;
+  float: left;
+  padding: 0 5px;
+  font-family: Tahoma,sans-serif;
+  color: #999;
+}
+
+.strike {
+  float: left;
+  position: relative;
+  top: 0.5em;
+  height: 1px;
+  width: 120px;
+
+  background: #666;
+  border-bottom: 1px solid #000;
+}
+
+
+/*BUTTON*/
+.fb-button {
+  margin: 0 auto;
+  width: 270px;
+  height: 30px;
+  padding: 37px 0;
+}
+
+.fb-button .icon,
+.fb-button .title { 
+  display: inline-block;
+  float: left;
+  
+  background: rgba(72,106,181,1);
+  background: -moz-linear-gradient(top, rgba(72,106,181,1) 0%, rgba(51,77,135,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(72,106,181,1)), color-stop(100%, rgba(51,77,135,1)));
+  background: -webkit-linear-gradient(top, rgba(72,106,181,1) 0%, rgba(51,77,135,1) 100%);
+  background: -o-linear-gradient(top, rgba(72,106,181,1) 0%, rgba(51,77,135,1) 100%);
+  background: -ms-linear-gradient(top, rgba(72,106,181,1) 0%, rgba(51,77,135,1) 100%);
+  background: linear-gradient(to bottom, rgba(72,106,181,1) 0%, rgba(51,77,135,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#486ab5', endColorstr='#334d87', GradientType=0 );
+  
+  border: 1px outset #184aa5;
+  
+  line-height: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fb-button .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px 0px 0px 4px;
+  /* background-image: url('fb.png'); *//* fb.png - logo image size of ~30x30 */
+  font-family: "Arial Bold", sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.fb-button .title {
+  height: 30px;
+  padding: 0 20px;
+  border-radius: 0px 4px 4px 0px;
+  font-family: "Arial Bold", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.fb-button .title:hover {
+  color: #eee;
+  border: 1px inset #184aa5;
+}
+
+.fb-button .title:active {
+  color: #f88;
+  border: 1px inset #184aa5;
+}
+
+.form-content input[type="text"],
+.form-content input[type="password"] {
+  display: block;
+  width: 236px;
+  height: 35px;
+  margin: 20px auto;
+  padding: 0 20px;
+  line-height: 35px;
+  background-color: #000; 
+  color: #fff;
+  border: 0;
+}
+
+.form-content input:focus {
+  outline: none;
+  background-color: #1b5288;
+  -webkit-box-shadow: 0px 0px 6px 3px rgba(70,128,171,1);
+  -moz-box-shadow: 0px 0px 6px 3px rgba(70,128,171,1);
+  box-shadow: 0px 0px 6px 3px rgba(70,128,171,1);
+}
+
+.form-content label {
+  display: block;
+  text-align: left;
+  margin: 20px 140px;
+}
+
+.form-content input[type="submit"] {
+  display: block;
+  width: 150px;
+  height: 35px;
+  margin: 20px auto;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  
+  border: 0;
+  
+  border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 2px 2px 2px 2px;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  border: 0px solid #000000;
+  
+  background: rgba(80,175,219,1);
+  background: -moz-linear-gradient(top, rgba(80,175,219,1) 0%, rgba(46,121,196,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(80,175,219,1)), color-stop(100%, rgba(46,121,196,1)));
+  background: -webkit-linear-gradient(top, rgba(80,175,219,1) 0%, rgba(46,121,196,1) 100%);
+  background: -o-linear-gradient(top, rgba(80,175,219,1) 0%, rgba(46,121,196,1) 100%);
+  background: -ms-linear-gradient(top, rgba(80,175,219,1) 0%, rgba(46,121,196,1) 100%);
+  background: linear-gradient(to bottom, rgba(80,175,219,1) 0%, rgba(46,121,196,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50afdb', endColorstr='#2e79c4', GradientType=0 );   
+}
+
+.form-content p {
+  text-align: center;
+  font-size: 11px;
+  line-height: 16px;
+}
